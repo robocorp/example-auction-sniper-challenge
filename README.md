@@ -16,7 +16,6 @@ The robot uses the [RPA.Browser.Playwright](https://robocorp.com/docs/libraries/
 *** Settings ***
 Documentation     Completes the Auction Sniper challenge.
 Library           RPA.Browser.Playwright
-Library           String
 
 *** Tasks ***
 Complete the Auction Sniper challenge
