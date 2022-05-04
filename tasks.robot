@@ -1,6 +1,8 @@
 *** Settings ***
-Documentation     Completes the Auction Sniper challenge.
-Library           RPA.Browser.Playwright
+Documentation       Completes the Auction Sniper challenge.
+
+Library             RPA.Browser.Playwright
+
 
 *** Tasks ***
 Complete the Auction Sniper challenge
@@ -9,6 +11,7 @@ Complete the Auction Sniper challenge
     Wait until the last moment
     Confirm the bid
     Take a screenshot of the result
+
 
 *** Keywords ***
 Open the auction website and accept cookies
