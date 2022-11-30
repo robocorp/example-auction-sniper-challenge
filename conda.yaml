@@ -3,12 +3,12 @@ channels:
 
 dependencies:
   - python=3.9.13                      # https://pyreadiness.org/3.9/ 
-  - pip=22.3                           # https://pip.pypa.io/en/stable/news/
-  - nodejs=18.11.0                     # https://nodejs.org/en/
+  - pip=22.3.1                         # https://pip.pypa.io/en/stable/news/
+  - nodejs=18.12.1                     # https://nodejs.org/en/
   - pip:
       # Define pip packages here -> https://pypi.org/
       - robotframework-browser==14.2.1 # https://github.com/MarketSquare/robotframework-browser/releases
-      - rpaframework==19.0.0           # https://rpaframework.org/releasenotes.html
+      - rpaframework==19.3.1           # https://rpaframework.org/releasenotes.html
 
 rccPostInstall:
   - rfbrowser init
